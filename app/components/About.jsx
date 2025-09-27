@@ -14,8 +14,8 @@ const About = () => {
                 </div>
                 <div className='flex-1'>
                     <p className='mb-10 max-w-2xl font-Ovo'>
-                        I am an third-year Computer Science major with an applied Data Science focus at Oregon State University. I am an avid learner who
-                        pushes myself to learn. I have tremendous leadership experience. yabbayabbdoo
+                        I am an third-year Computer Science major with an applied Data Science focus at Oregon State University.
+                        I am an third-year Computer Science major with an applied Data Science focus at Oregon State University.
                     </p>
 
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
