@@ -6,7 +6,7 @@ import edu_icon_dark from './edu-icon-dark.png';
 import project_icon from './project-icon.png';
 import project_icon_dark from './project-icon-dark.png';
 import vscode from './vscode.png';
-import firebase from './firebase.png';
+import microsoft_365 from './microsoft-365.png';
 import figma from './figma.png';
 import git from './git.png';
 import mongodb from './mongodb.png';
@@ -45,7 +45,7 @@ export const assets = {
     project_icon,
     project_icon_dark,
     vscode,
-    firebase,
+    microsoft_365,
     figma,
     git,
     mongodb,
@@ -78,40 +78,40 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'NFL Predictor',
+        description: 'personal project',
+        bgImage: '/nfl.png',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'Portfolio Website',
+        description: 'personal project',
+        bgImage: '/website.png',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Cave Game',
+        description: 'class project',
+        bgImage: '/cave.png',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'To-Do List',
+        description: 'first personal project',
+        bgImage: '/to-do.png',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'President', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.mobile_icon, title: 'Peer Tutor', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+    { icon: assets.ui_icon, title: 'Youth Leader', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
+    { icon: assets.graphics_icon, title: 'Secretary', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, C/C++, SQL, Javascript, HTML/CSS, React Js, Next Js, R' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, C/C++, SQL, Javascript, HTML/CSS, React JS, Next JS, R' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'CS major & Statistics minor @ Oregon State University' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Graduation', description: 'Expected: June 2027' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.microsoft_365, assets.mongodb, assets.figma, assets.git
 ];

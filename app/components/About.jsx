@@ -39,8 +39,9 @@ const About = ({isDarkMode}) => {
                 whileInView={{opacity: 1}}
                 transition={{duration: 0.6, delay: 0.8}}>
                     <p className='mb-10 max-w-2xl font-Ovo'>
-                        I am an third-year Computer Science major with an applied Data Science focus at Oregon State University.
-                        I am an third-year Computer Science major with an applied Data Science focus at Oregon State University.
+                        I’m a third-year Computer Science major with a minor in Statistics and a strong passion for data. 
+                        Alongside my studies, I bring several years of leadership experience in diverse settings. 
+                        I’m an avid learner, always eager to grow and explore new skills.
                     </p>
 
                     <motion.ul 

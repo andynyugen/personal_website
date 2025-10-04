@@ -29,8 +29,8 @@ const Experience = () => {
             whileInView={{ y:0, opacity: 1 }}
             transition={{ delay: 0.7, duration: 0.5 }}
             className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-                I am the current the President of Society of Asian Scientists and Engineers (SASE) at OSU.
-                I am also a Peer Tutor for TRIO Student Support Services and a Youth Leader at my local church.
+                I am the current President of the Society of Asian Scientists and Engineers (SASE) at Oregon State University. 
+                I also serve as a Peer Tutor for TRIO Student Support Services and as a Youth Leader at my local church.
             </motion.p>
 
             <motion.div 

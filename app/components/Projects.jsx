@@ -24,7 +24,7 @@ const Projects = ({isDarkMode}) => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.5 }}
             className='text-center text-5xl font-Ovo'>
-                My latest work
+                My latest projects
             </motion.h2>
 
             <motion.p 
@@ -32,8 +32,8 @@ const Projects = ({isDarkMode}) => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.7 }}
             className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-                Welcome to my coding portfolio! Explore a collection of projects showcasing
-                my expertise technical skills through personal and class projects
+                Welcome to my coding portfolio! Here you’ll find a collection of personal and class projects 
+                that showcase my technical skills and growth as a developer.
             </motion.p>
 
             <motion.div 
