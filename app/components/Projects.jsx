@@ -69,7 +69,7 @@ const Projects = ({isDarkMode}) => {
                     <motion.div 
                         whileHover={{ scale: 1.05 }}      // Slight zoom effect on hover
                         transition={{ duration: 0.3 }}    // Smooth scaling
-                        key={index}
+                        key={index}                       // Unique key for each card
                         className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg 
                                 relative cursor-pointer group"
                         // equal width/height, center/cover background, round courners, relative position, pointer cursor on hover

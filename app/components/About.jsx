@@ -86,7 +86,7 @@ const About = ({isDarkMode}) => {
                         whileInView={{ opacity: 1 }}                // fade in
                         transition={{ duration: 0.8, delay: 1} }    // delayed animation
                         className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl"
-                        // 1 column mobile, 3 columsn larger screens, gap, max width
+                        // 1 column mobile, 3 columns larger screens, gap, max width
                     >
                         {infoList.map(({icon, iconDark, title, description}, index) => (
                             <motion.li 
@@ -95,7 +95,7 @@ const About = ({isDarkMode}) => {
                                          hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black
                                          dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
                                 // border, rounded, padding, hover color/effect, dark mode adjustments
-                                key = {index}
+                                key = {index}                   // unique key for each card
                             >
                                 {/* --- Icons --- */}
                                 <Image
