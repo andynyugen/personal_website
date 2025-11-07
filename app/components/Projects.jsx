@@ -96,11 +96,15 @@ const Projects = ({isDarkMode}) => {
                                             items-center justify-center shadow-[2px_2px_0_#000] 
                                             group-hover:bg-lime-300 transition">
                                 {/* rounded borders, black border, width, square, center icons, box shadow, lime green background when hovered, hover transition */}
-                                <Image 
-                                    src={assets.send_icon} // Use the send arrow icon from assets
-                                    alt="send icon"
-                                    className="w-5"
-                                />
+
+                                <a href={project.link} target="_blank">
+                                {/* Clicking on arrow sends users to project repository */}
+                                    <Image 
+                                        src={assets.send_icon} // Use the send arrow icon from assets
+                                        alt="send icon"
+                                        className="w-5"
+                                    />
+                                </a>
                             </div>
                         </div>
                     </motion.div>

@@ -74,41 +74,49 @@ export const assets = {
     right_arrow_bold_dark
 };
 
+// Project data
 export const workData = [
     {
         title: 'NFL Predictor',
         description: 'personal project',
         bgImage: '/nfl.png',
+        link: 'https://github.com/andynyugen/nfl_predictor'
     },
     {
         title: 'Portfolio Website',
         description: 'personal project',
         bgImage: '/website.png',
+        link: 'https://github.com/andynyugen/personal_website'
     },
     {
         title: 'Cave Game',
         description: 'class project',
         bgImage: '/cave.png',
+        link: 'https://github.com/andynyugen/cave_adventure_game'
     },
     {
         title: 'To-Do List',
         description: 'first personal project',
         bgImage: '/to-do.png',
+        link: 'https://github.com/andynyugen/todo_list'
     },
 ]
 
+// Experience data
 export const serviceData = [
     { icon: assets.sase_icon, title: 'President', description: 'Society of Asian Scientists and Engineers', time: 'Mar. 2024 - Present', link: '' },
     { icon: assets.trio_icon, title: 'Peer Tutor', description: 'TRIO SSS (Student Support Services)', time: 'Oct. 2024 - Present',link: '' },
     { icon: assets.lavang_icon, title: 'Youth Leader', description: 'Our Lady of Lavang Parish', time: 'Jul. 2021 - Present', link: '' }
 ]
 
+// About me data (summary)
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, C/C++, SQL, Javascript, HTML/CSS, React JS, Next JS, R' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'CS major & Statistics minor @ Oregon State University' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Graduation', description: 'Expected: June 2027' }
 ];
 
+// About me data (tools)
 export const toolsData = [
     assets.vscode, assets.microsoft_365, assets.mongodb, assets.figma, assets.git
 ];
