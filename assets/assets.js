@@ -30,6 +30,7 @@ import close_white from './close-white.png';
 import sase_icon from './sase-icon.png';
 import trio_icon from './trio-icon.png';
 import lavang_icon from './lavang-icon.png';
+import stantec_icon from './stantec-icon.png'
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
@@ -68,6 +69,7 @@ export const assets = {
     sase_icon,
     trio_icon,
     lavang_icon,
+    stantec_icon,
     right_arrow,
     send_icon,
     right_arrow_bold,
@@ -104,7 +106,8 @@ export const workData = [
 
 // Experience data
 export const serviceData = [
-    { icon: assets.sase_icon, title: 'President', description: 'Society of Asian Scientists and Engineers', time: 'Mar. 2024 - Present', link: '' },
+    { icon: assets.stantec_icon, title: 'Cloud Infrastructure & DevOps Intern', description: 'Stantec', time: 'Jan. 2026 - Present', link: '' },
+    { icon: assets.sase_icon, title: 'President', description: 'Society of Asian Scientists and Engineers (SASE)', time: 'Mar. 2024 - Present', link: '' },
     { icon: assets.trio_icon, title: 'Peer Tutor', description: 'TRIO SSS (Student Support Services)', time: 'Oct. 2024 - Present',link: '' },
     { icon: assets.lavang_icon, title: 'Youth Leader', description: 'Our Lady of Lavang Parish', time: 'Jul. 2021 - Present', link: '' }
 ]

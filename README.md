@@ -1,4 +1,4 @@
-# Andy Nguyen Portfolio Website
+# Portfolio Website
 
 ## Overview
 This is my personal portfolio website built with **Next.js**, **Tailwind CSS**, and **React**.  
