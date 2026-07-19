@@ -9,7 +9,8 @@ import vscode from './vscode.png';
 import microsoft_365 from './microsoft-365.png';
 import figma from './figma.png';
 import git from './git.png';
-import mongodb from './mongodb.png';
+import azure from './azure.png'
+import claude from './claude.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -49,7 +50,8 @@ export const assets = {
     microsoft_365,
     figma,
     git,
-    mongodb,
+    azure,
+    claude,
     right_arrow_white,
     logo,
     logo_dark,
@@ -81,48 +83,48 @@ export const assets = {
 // Project data
 export const workData = [
     {
+        title: 'NBA Data Dashboard',
+        description: 'Interactive R Shiny dashboard exploring the 3-point revolution in the NBA through statistical trends and visualizations.',
+        bgImage: '/nba-logo.png',
+        link: 'https://github.com/andynyugen/nba-3point-revolution'
+    },
+    {
         title: 'NFL Predictor',
-        description: 'personal project',
+        description: 'Logistic regression model that predicts NFL game outcomes using historical team performance and game statistics.',
         bgImage: '/nfl.png',
         link: 'https://github.com/andynyugen/nfl_predictor'
     },
     {
-        title: 'Portfolio Website',
-        description: 'personal project',
-        bgImage: '/website.png',
-        link: 'https://github.com/andynyugen/personal_website'
-    },
-    {
         title: 'Cave Game',
-        description: 'class project',
+        description: 'Command-line adventure game built in C++ using object-oriented programming principles.',
         bgImage: '/cave.png',
         link: 'https://github.com/andynyugen/cave_adventure_game'
     },
     {
-        title: 'To-Do List',
-        description: 'first personal project',
-        bgImage: '/to-do.png',
-        link: 'https://github.com/andynyugen/todo_list'
-    },
+        title: 'Portfolio Website',
+        description: 'Personal portfolio website built with React and Next.js showcasing my projects and experience.',
+        bgImage: '/website.png',
+        link: 'https://github.com/andynyugen/personal_website'
+    }
 ]
 
 // Experience data
 export const serviceData = [
-    { icon: assets.ohsu_icon, title: 'Machine Learning Intern', description: 'Oregon Health & Science University', time: 'Jun. 2026 - Present', link: '' },
-    { icon: assets.stantec_icon, title: 'Cloud Infrastructure & DevOps Intern', description: 'Stantec', time: 'Jan. 2026 - Mar. 2026', link: '' },
-    { icon: assets.sase_icon, title: 'President', description: 'Society of Asian Scientists and Engineers (SASE)', time: 'Mar. 2024 - Present', link: '' },
+    { icon: assets.ohsu_icon, title: 'AI/ML Research Intern', description: 'Oregon Health & Science University', time: 'Jun. 2026 - Present', link: '' },
+    { icon: assets.stantec_icon, title: 'Cloud Infrastructure & DevOps Intern', description: 'Stantec', time: 'Jan. 2026 - Present', link: '' },
+    { icon: assets.sase_icon, title: 'President', description: 'Society of Asian Scientists and Engineers (SASE)', time: 'May. 2024 - May 2026', link: '' },
     { icon: assets.trio_icon, title: 'Peer Tutor', description: 'TRIO SSS (Student Support Services)', time: 'Oct. 2024 - Present',link: '' },
     { icon: assets.lavang_icon, title: 'Youth Leader', description: 'Our Lady of Lavang Parish', time: 'Jul. 2021 - Present', link: '' }
 ]
 
 // About me data (summary)
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, C/C++, SQL, Javascript, HTML/CSS, React JS, Next JS, R' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, SQL, R, C/C++, Javascript, HTML/CSS, PowerShell, Bicep' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'CS major & Statistics minor @ Oregon State University' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Graduation', description: 'Expected: June 2027' }
 ];
 
 // About me data (tools)
 export const toolsData = [
-    assets.vscode, assets.microsoft_365, assets.mongodb, assets.figma, assets.git
+    assets.git, assets.azure, assets.claude, assets.vscode, assets.figma, assets.microsoft_365
 ];

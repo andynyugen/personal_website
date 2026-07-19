@@ -51,8 +51,13 @@ const Experience = () => {
                 transition={{ delay: 0.7, duration: 0.5 }}  // Smooth delay for staggered effect
                 className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
             >
-                    I am the current President of the Society of Asian Scientists and Engineers (SASE) at Oregon State University. 
-                    I also serve as a Peer Tutor for TRIO Student Support Services and as a Youth Leader at my local church.
+                    I'm a Cloud Infrastructure & DevOps Intern at Stantec, where I work with Azure cloud infrastructure, 
+                    security automation, and AI agents. I also work as an AI/ML Research Intern at Oregon Health & Science University (OHSU),
+                    researching algorithmic fairness in clinical health datasets.
+                    
+                    I bring leadership experience at the club and organization level — previously serving as President of the Society of Asian 
+                    Scientists and Engineers (SASE) at Oregon State University, and currently as a Peer Tutor for TRIO Student Support Services 
+                    and a Youth Leader at my local church.
             </motion.p>
 
             {/* --- Grid layout for experience cards --- */}
