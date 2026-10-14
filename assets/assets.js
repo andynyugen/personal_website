@@ -33,6 +33,8 @@ import trio_icon from './trio-icon.png';
 import lavang_icon from './lavang-icon.png';
 import stantec_icon from './stantec-icon.png';
 import ohsu_icon from './ohsu-icon.png';
+import osu_coe_icon from './osu_coe-icon.png';
+import aspen_ideas_icon from './aspen_ideas-icon.png'
 import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
@@ -74,6 +76,8 @@ export const assets = {
     lavang_icon,
     stantec_icon,
     ohsu_icon,
+    osu_coe_icon,
+    aspen_ideas_icon,
     right_arrow,
     send_icon,
     right_arrow_bold,
@@ -110,11 +114,14 @@ export const workData = [
 
 // Experience data
 export const serviceData = [
-    { icon: assets.ohsu_icon, title: 'AI/ML Research Intern', description: 'Oregon Health & Science University', time: 'Jun. 2026 - Present', link: '' },
-    { icon: assets.stantec_icon, title: 'Cloud Infrastructure & DevOps Intern', description: 'Stantec', time: 'Jan. 2026 - Present', link: '' },
-    { icon: assets.sase_icon, title: 'President', description: 'Society of Asian Scientists and Engineers (SASE)', time: 'May. 2024 - May 2026', link: '' },
-    { icon: assets.trio_icon, title: 'Peer Tutor', description: 'TRIO SSS (Student Support Services)', time: 'Oct. 2024 - Present',link: '' },
-    { icon: assets.lavang_icon, title: 'Youth Leader', description: 'Our Lady of Lavang Parish', time: 'Jul. 2021 - Present', link: '' }
+    { icon: assets.stantec_icon, title: 'Cloud Infrastructure & DevOps Intern', description: 'Stantec', time: 'Jan. 2026 - Sept. 2026', link: '' }
+    { icon: assets.ohsu_icon, title: 'AI/ML Research Intern', description: 'Oregon Health & Science University', time: 'Jun. 2026 - Aug. 2026', link: '' },
+    { icon: assets.stantec_icon, title: 'Undergraduate Teaching Assistant', description: 'OSU - College of Engineering', time: 'Aug. 2026 - Present', link: '' },
+    { icon: assets.trio_icon, title: 'Peer Tutor', description: 'TRIO SSS (Student Support Services)', time: 'Oct. 2024 - Present', link: '' },
+    { icon: assets.trio_icon, title: 'Fellow', description: 'Aspen Ideas: Rising Generations', time: 'Nov. 2026', link: '' },
+    { icon: assets.sase_icon, title: 'President', description: 'Society of Asian Scientists and Engineers (SASE)', time: 'May 2024 - May 2026', link: '' },
+    { icon: assets.lavang_icon, title: 'Youth Leader', description: 'Our Lady of Lavang Parish', time: 'Jul. 2021 - Present', link: '' },
+    { icon: assets.lavang_icon, title: 'Coming Soon!', description: '', time: '', link: '' }
 ]
 
 // About me data (summary)
