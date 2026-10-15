@@ -51,14 +51,14 @@ const Experience = () => {
                 transition={{ delay: 0.7, duration: 0.5 }}  // Smooth delay for staggered effect
                 className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo"
             >
-                    I previously worked as a Cloud Infrastructure & DevOps Intern at Stantec, where I develop and govern Azure cloud infrastructure, 
+                    I previously worked as a Cloud Infrastructure & DevOps Intern at Stantec, where I developed and governed Azure cloud infrastructure, 
                     security automation, and AI agents. I also worked as an AI/ML Research Intern at Oregon Health & Science University (OHSU),
                     researching algorithmic fairness in healthcare settings, architecting an inference pipeline to automate LLM calls utilizing clinical datsets.
                     
                     I bring leadership experience at the club and organization level — previously serving as President of the Society of Asian 
                     Scientists and Engineers (SASE) at Oregon State University, and currently as a Peer Tutor for TRIO Student Support Services 
-                    and a Youth Leader at my local church. I was invited to attend the inaugural Aspen Ideas: Rising Generations Festival,
-                    nationally recognized as one of 350 young leaders in the country.
+                    and a Youth Leader at my local church. Nationally recognized as one of 350 young leaders in the country, I was invited to attend 
+                    the inaugural Aspen Ideas: Rising Generations Festival.
             </motion.p>
 
             {/* --- Grid layout for experience cards --- */}
