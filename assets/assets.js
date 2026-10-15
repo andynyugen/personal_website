@@ -11,6 +11,8 @@ import figma from './figma.png';
 import git from './git.png';
 import azure from './azure.png'
 import claude from './claude.png';
+import gcp from './gcp.png';
+import service_now from './service_now.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
@@ -54,6 +56,8 @@ export const assets = {
     git,
     azure,
     claude,
+    gcp,
+    service_now,
     right_arrow_white,
     logo,
     logo_dark,
@@ -133,5 +137,5 @@ export const infoList = [
 
 // About me data (tools)
 export const toolsData = [
-    assets.git, assets.azure, assets.claude, assets.vscode, assets.figma, assets.microsoft_365
+    assets.git, assets.azure, assets.gcp, assets.claude, assets.vscode, assets.figma, assets.service_now, assets.microsoft_365
 ];

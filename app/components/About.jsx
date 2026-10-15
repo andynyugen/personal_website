@@ -75,7 +75,7 @@ const About = ({isDarkMode}) => {
                 >
                     {/* Personal Summary */}
                     <p className="mb-10 max-w-2xl font-Ovo">
-                        I’m a third-year Computer Science major with a minor in Statistics and a strong passion for data. 
+                        I’m a fourth-year Computer Science major with a minor in Statistics and a strong passion for cloud, data, and AI. 
                         Alongside my studies, I bring several years of leadership experience in diverse settings. 
                         I’m an avid learner, always eager to grow and explore new skills.
                     </p>
