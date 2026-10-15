@@ -68,8 +68,8 @@ const Header = () => {
             className="max-w-2xl mx-auto font-Ovo"
             // Centered paragraph, limited width for readability, Ovo font
         >
-            I am a third-year Computer Science student attending Oregon State University. 
-            I have an applied focus in Data Science and am minoring in Statistics.
+            I am a fourth-year Computer Science student attending Oregon State University. 
+            I have an applied focus in Data Science and AI, and am minoring in Statistics.
         </motion.p>
 
         {/* --- Action buttons (contact and resume) --- */}
