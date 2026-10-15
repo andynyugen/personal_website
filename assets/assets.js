@@ -92,7 +92,7 @@ export const assets = {
 export const workData = [
     {
         title: 'BeaverLink (OSU Capstone)',
-        description: 'OSU networking mobile app in partnership with the OSU Alumni Association that optimizes networking for event attendees.',
+        description: 'OSU networking mobile app in partnership with the OSU Alumni Association that enhances networking at OSU events',
         bgImage: '/beaverlink.png',
         link: 'https://capstone.eecs.oregonstate.edu/projects/000151ee-b358-54c7-9f1c-c3380f3e46f4'
     },
