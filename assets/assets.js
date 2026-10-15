@@ -91,28 +91,28 @@ export const assets = {
 // Project data
 export const workData = [
     {
+        title: 'BeaverLink (OSU Capstone)',
+        description: 'OSU networking mobile app in partnership with the OSU Alumni Association that enhances networking by matching students and alumni at OSU events.',
+        bgImage: '/beaverlink.png',
+        link: 'https://capstone.eecs.oregonstate.edu/projects/000151ee-b358-54c7-9f1c-c3380f3e46f4'
+    },
+    {
         title: 'NBA Data Dashboard',
         description: 'Interactive R Shiny dashboard exploring the 3-point revolution in the NBA through statistical trends and visualizations.',
         bgImage: '/nba-logo.png',
         link: 'https://github.com/andynyugen/nba-3point-revolution'
     },
     {
-        title: 'NFL Predictor',
-        description: 'Logistic regression model that predicts NFL game outcomes using historical team performance and game statistics.',
-        bgImage: '/nfl.png',
-        link: 'https://github.com/andynyugen/nfl_predictor'
+        title: 'Hika (QuackHacks 2026 Finalist)',
+        description: 'Hiking social media mobile app incorporating analytics inspired by Strava and AllTrails, built using React Native, Firebase, Leaflet API, and Expo Go.',
+        bgImage: '/hika.png',
+        link: 'https://www.youtube.com/watch?v=eahUs4NMG9s&t=146s'
     },
     {
         title: 'Cave Game',
         description: 'Command-line adventure game built in C++ using object-oriented programming principles.',
         bgImage: '/cave.png',
         link: 'https://github.com/andynyugen/cave_adventure_game'
-    },
-    {
-        title: 'Portfolio Website',
-        description: 'Personal portfolio website built with React and Next.js showcasing my projects and experience.',
-        bgImage: '/website.png',
-        link: 'https://github.com/andynyugen/personal_website'
     }
 ]
 
