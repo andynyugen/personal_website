@@ -92,7 +92,7 @@ export const assets = {
 export const workData = [
     {
         title: 'BeaverLink (OSU Capstone)',
-        description: 'OSU networking mobile app in partnership with the OSU Alumni Association that enhances networking by matching students and alumni at OSU events.',
+        description: 'OSU networking mobile app in partnership with the OSU Alumni Association that optimizes networking for event attendees.',
         bgImage: '/beaverlink.png',
         link: 'https://capstone.eecs.oregonstate.edu/projects/000151ee-b358-54c7-9f1c-c3380f3e46f4'
     },
@@ -104,7 +104,7 @@ export const workData = [
     },
     {
         title: 'Hika (QuackHacks 2026 Finalist)',
-        description: 'Hiking social media mobile app incorporating analytics inspired by Strava and AllTrails, built using React Native, Firebase, Leaflet API, and Expo Go.',
+        description: 'Hiking social media mobile app incorporating analytics inspired by Strava and AllTrails.',
         bgImage: '/hika.png',
         link: 'https://www.youtube.com/watch?v=eahUs4NMG9s&t=146s'
     },
