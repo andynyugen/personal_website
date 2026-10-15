@@ -114,14 +114,14 @@ export const workData = [
 
 // Experience data
 export const serviceData = [
-    { icon: assets.stantec_icon, title: 'Cloud Infrastructure & DevOps Intern', description: 'Stantec', time: 'Jan. 2026 - Sept. 2026', link: '' }
+    { icon: assets.stantec_icon, title: 'Cloud Infrastructure & DevOps Intern', description: 'Stantec', time: 'Jan. 2026 - Sept. 2026', link: '' },
     { icon: assets.ohsu_icon, title: 'AI/ML Research Intern', description: 'Oregon Health & Science University', time: 'Jun. 2026 - Aug. 2026', link: '' },
-    { icon: assets.stantec_icon, title: 'Undergraduate Teaching Assistant', description: 'OSU - College of Engineering', time: 'Aug. 2026 - Present', link: '' },
+    { icon: assets.osu_coe_icon, title: 'Undergraduate Teaching Assistant', description: 'OSU - College of Engineering', time: 'Aug. 2026 - Present', link: '' },
     { icon: assets.trio_icon, title: 'Peer Tutor', description: 'TRIO SSS (Student Support Services)', time: 'Oct. 2024 - Present', link: '' },
-    { icon: assets.trio_icon, title: 'Fellow', description: 'Aspen Ideas: Rising Generations', time: 'Nov. 2026', link: '' },
+    { icon: assets.aspen_ideas_icon, title: 'Fellow', description: 'Aspen Ideas: Rising Generations', time: 'Nov. 2026', link: '' },
     { icon: assets.sase_icon, title: 'President', description: 'Society of Asian Scientists and Engineers (SASE)', time: 'May 2024 - May 2026', link: '' },
     { icon: assets.lavang_icon, title: 'Youth Leader', description: 'Our Lady of Lavang Parish', time: 'Jul. 2021 - Present', link: '' },
-    { icon: assets.lavang_icon, title: 'Coming Soon!', description: '', time: '', link: '' }
+    { icon: assets.code_icon, title: 'Coming Soon!', description: '', time: '', link: '' }
 ]
 
 // About me data (summary)
